@@ -6,7 +6,7 @@ networks:
 services:
 
   pihole_exporter:
-    image: remiflandrois/pihole_exporter
+    image: remiflandrois/pihole-exporter:latest
     environment:
         - PIHOLE_HOSTNAME=XXXXX
         - PIHOLE_PASSWORD=XXXXX
