@@ -10,6 +10,7 @@ An already built container is published on [DockerHub](https://hub.docker.com/r/
 
 To run the container:
 ```
-docker run -d -p 0.0.0.0:9617:9617 -e 'PIHOLE_HOSTNAME=192.168.XXX.XXX' -e 'PIHOLE_PASSWORD=XXXXXXX' -e 'INTERVAL=5s' pihole_exporter```
+docker run -d -p 0.0.0.0:9617:9617 -e 'PIHOLE_HOSTNAME=192.168.XXX.XXX' -e 'PIHOLE_PASSWORD=XXXXXXX' -e 'INTERVAL=5s' pihole_exporter
+```
 
 A Docker-compose file is available on this github.
